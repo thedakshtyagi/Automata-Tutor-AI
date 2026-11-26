@@ -1,0 +1,12 @@
+[
+  {"id": 1, "type": "Normal", "input": "Construct a DFA over {0,1} accepting even number of 0s", "expected": "2 states, q0 accepting", "status": "Pass"},
+  {"id": 2, "type": "Normal", "input": "Convert S -> AA | a, A -> SS | b to GNF", "expected": "Formal GNF production rules", "status": "Pass"},
+  {"id": 3, "type": "Normal", "input": "Prove Halting Problem undecidability", "expected": "Diagonalization reduction proof", "status": "Pass"},
+  {"id": 4, "type": "Normal", "input": "Design PDA for L = {a^n b^n | n >= 0}", "expected": "Single state stack PDA", "status": "Pass"},
+  {"id": 5, "type": "Normal", "input": "Check if L = {w w^R} is context-free", "expected": "Non-deterministic PDA proof", "status": "Pass"},
+  {"id": 6, "type": "Normal", "input": "Reduce 3-SAT to Clique Problem", "expected": "Polynomial time reduction steps", "status": "Pass"},
+  {"id": 7, "type": "Edge", "input": "DFA accepting empty string epsilon only", "expected": "q0 accepting, error state on any symbol", "status": "Pass"},
+  {"id": 8, "type": "Edge", "input": "NFA to DFA conversion with 0 reachable states", "expected": "Empty set trap state handled", "status": "Pass"},
+  {"id": 9, "type": "Invalid", "input": "idk solve this thing for me fast", "expected": "Validation error asking for valid problem", "status": "Pass"},
+  {"id": 10, "type": "Edge", "input": "CFG with unit production loops A->B, B->A", "expected": "Cycle elimination before GNF", "status": "Pass"}
+]
